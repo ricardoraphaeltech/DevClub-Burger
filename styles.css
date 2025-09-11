@@ -11,6 +11,22 @@ body {
     color: #fff;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+    padding: 20px 0;
+}
+
+.header-container .logo-header-img {
+    width: 75px;
+}
+
+.header-container .logo-text {
+    width: 140px;
+}
+
 main {
     min-height: 100vh;
     display: flex;
@@ -32,12 +48,12 @@ main .button-container .grid-button {
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    background: linear-gradient(to bottom, #29af00 0%, #52ff1e 100%);
+    background: linear-gradient(to bottom, #fcd204 0%, #ed4a0b 100%);
     transition: .2s linear;
 }
 
 .grid-button:hover {
-    box-shadow: 0 0 10px #52ff1e;
+    box-shadow: 0 0 14px #ff8800;
 }
 
 main .button-container .menu {
@@ -76,20 +92,26 @@ main .grid-container {
 }
 
 .grid-container .grid-item .item-price {
-    color: #52ff1e;
+    color: #fcd204;
     font-weight: bold;
 
 }
 
 .grid-container .grid-item span {
-    color: #52ff1e;
+    color: #fcd204;
     font-weight: bold;
 }
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 20px 0;
+    gap: 20px;
+}
+
+footer .logo-footer-img {
+    width: 145px;
 }
 
 @media screen and (max-width: 740px) {
