@@ -122,6 +122,11 @@ footer .logo-footer-img {
 }
 
 @media screen and (max-width: 588px) {
+    .header-container {
+        justify-content: center;
+        margin-left: 0;
+    }
+
     main .button-container {
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         width: 40%;
@@ -141,6 +146,10 @@ footer .logo-footer-img {
 }
 
 @media screen and (max-width: 418px) {
+    footer .logo-footer-img {
+        width: 130px;
+    }
+
     footer .copyright {
         font-size: 14px;
     }
