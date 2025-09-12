@@ -79,7 +79,7 @@ main .grid-container {
 }
 
 .grid-container .grid-item {
-    border: 2px solid #8133ff;
+    border: 2px solid #ff8800;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
