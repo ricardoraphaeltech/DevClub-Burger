@@ -30,6 +30,7 @@ As principais tecnologias utilizadas foram: HTML, CSS e JavaScript, garantindo u
 
 Resultado: o projeto resultou em uma aplicação funcional e dinâmica, permitindo a interação do usuário com as listas de produtos e oferecendo uma visão clara dos preços e descontos.
 </p>
+<p>Acesse o projeto pelo <a href="https://ricardoraphaeltech.github.io/DevClub-Burger/">Link</a></p>
 
 ---
 
